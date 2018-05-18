@@ -1,0 +1,3 @@
+<errorHandleSettings alwaysApplyPacing="true" enabled="false">
+    <httpCode value="404"/>
+</errorHandleSettings>

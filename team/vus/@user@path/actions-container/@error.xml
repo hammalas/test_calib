@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="1"
+    name="Error" pacingEnd="${pacingMax}" pacingMode="MODE_PACING_RANGE"
+    pacingStart="${pacingMin}" pacingValue="0" slaProfileEnabled="false"
+    uid="bbb09f47-ff8f-47e2-87a0-02c5e184d69f" weightsEnabled="false">
+    <weighted-embedded-action uid="2020a2b5-fed8-4bac-9fd4-1d174a994d85"/>
+</basic-logical-action-container>

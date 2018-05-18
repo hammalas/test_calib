@@ -1,0 +1,298 @@
+<http-page executeResourcesDynamically="false"
+    name="/AppHollow/getPage.do Error" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@user@path/%resources%/recorded-artifacts/2020a2b5-fed8-4bac-9fd4-1d174a994d85.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="2020a2b5-fed8-4bac-9fd4-1d174a994d85">
+    <embedded-action>525e31bb-d40a-426e-a1a1-d7fde92590b5</embedded-action>
+    <embedded-action>d9448310-1269-43be-a095-c627cf981d5e</embedded-action>
+    <embedded-action>df33ef10-7a49-4e96-a946-f61efa986b39</embedded-action>
+    <embedded-action>5d6c49fb-ed8b-4fe5-928e-9093bca0b366</embedded-action>
+    <embedded-action>d73836dc-2939-4744-848e-235634a99dbd</embedded-action>
+    <embedded-action>3ff87e38-7bfe-4ebc-ae06-d818223eec47</embedded-action>
+    <embedded-action>db75c46c-e4c9-4a86-8e78-2ccb01c2eb34</embedded-action>
+    <embedded-action>77cc1a1d-d38f-4489-b4bb-0a790326ee95</embedded-action>
+    <embedded-action>14f140b0-dfd3-4d33-a4b5-611ebc16711f</embedded-action>
+    <embedded-action>f692d335-684d-4954-941b-ff2938dac678</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html;charset=ISO-8859-1"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/AppHollow/getPage.do"
+    path="/AppHollow/getPage.do" postType="1"
+    recordedArtifactZipFileName="team/vus/@user@path/%resources%/recorded-artifacts/2020a2b5-fed8-4bac-9fd4-1d174a994d85.zip"
+    recordedResponseCode="200" responseSize="6017" serverUid="AppHollow"
+    slaProfileEnabled="false" uid="525e31bb-d40a-426e-a1a1-d7fde92590b5" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_57fe42d6-d1b5-4606-afea-5835397868d1.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_57fe42d6-d1b5-4606-afea-5835397868d1.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="appId"
+        recordRawValue="SMALL" separator="=" value="${applicationId}" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="pageId"
+        recordRawValue="ErrorPage" separator="=" value="ErrorPage" valueMode="USE_VALUE"/>
+    <header name="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch, br"/>
+    <header name="Accept-Language" value="fr-FR,fr;q=0.8,en-US;q=0.6,en;q=0.4"/>
+    <header name="Host" value="localhost:8080"/>
+    <header name="Referer" value="http://www.neotys.com/recorder.html?lng=en&amp;port=8090"/>
+    <header name="Upgrade-Insecure-Requests" value="1"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Server: Apache-Coyote/1.1&#xd;
+Content-Type: text/html;charset=ISO-8859-1&#xd;
+Content-Language: fr-FR&#xd;
+Content-Length: 6017&#xd;
+Date: Wed, 29 Mar 2017 21:46:06 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/css"
+    eTag="W/&quot;5425-1495191984000&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Fri, 19 May 2017 11:06:24 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/AppHollow/style/style.css"
+    path="/AppHollow/style/style.css" postType="1"
+    recordedArtifactZipFileName="team/vus/@user@path/%resources%/recorded-artifacts/2020a2b5-fed8-4bac-9fd4-1d174a994d85.zip"
+    recordedResponseCode="200" responseSize="5425" serverUid="AppHollow"
+    slaProfileEnabled="false" uid="d9448310-1269-43be-a095-c627cf981d5e" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_a8875d37-6b33-43ca-9758-ae748a52a133.css</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_a8875d37-6b33-43ca-9758-ae748a52a133.txt</requestContentFileDescription>
+    <header name="Accept" value="text/css,*/*;q=0.1"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch, br"/>
+    <header name="Accept-Language" value="fr-FR,fr;q=0.8,en-US;q=0.6,en;q=0.4"/>
+    <header name="Host" value="localhost:8080"/>
+    <header name="Referer" value="http://localhost:8080/AppHollow/getPage.do?appId=SMALL&amp;pageId=ErrorPage"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Server: Apache-Coyote/1.1&#xd;
+Accept-Ranges: bytes&#xd;
+ETag: W/"5425-1461325430000"&#xd;
+Last-Modified: Fri, 22 Apr 2016 11:43:50 GMT&#xd;
+Content-Type: text/css&#xd;
+Content-Length: 5425&#xd;
+Date: Wed, 29 Mar 2017 21:46:06 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/html;charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/AppHollow/tests/images/error1.txt"
+    path="/AppHollow/tests/images/error1.txt" postType="1"
+    recordedArtifactZipFileName="team/vus/@user@path/%resources%/recorded-artifacts/2020a2b5-fed8-4bac-9fd4-1d174a994d85.zip"
+    recordedResponseCode="404" responseSize="1071" serverUid="AppHollow"
+    slaProfileEnabled="false" uid="df33ef10-7a49-4e96-a946-f61efa986b39" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_cab34557-3ca6-49ea-ba72-e37ed211f26b.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_cab34557-3ca6-49ea-ba72-e37ed211f26b.txt</requestContentFileDescription>
+    <header name="Accept" value="image/webp,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch, br"/>
+    <header name="Accept-Language" value="fr-FR,fr;q=0.8,en-US;q=0.6,en;q=0.4"/>
+    <header name="Host" value="localhost:8080"/>
+    <header name="Referer" value="http://localhost:8080/AppHollow/getPage.do?appId=SMALL&amp;pageId=ErrorPage"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 404 Introuvable&#xd;
+Server: Apache-Coyote/1.1&#xd;
+Content-Type: text/html;charset=utf-8&#xd;
+Content-Language: fr&#xd;
+Content-Length: 1071&#xd;
+Date: Wed, 29 Mar 2017 21:46:06 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/html;charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/AppHollow/tests/images/error2.txt"
+    path="/AppHollow/tests/images/error2.txt" postType="1"
+    recordedArtifactZipFileName="team/vus/@user@path/%resources%/recorded-artifacts/2020a2b5-fed8-4bac-9fd4-1d174a994d85.zip"
+    recordedResponseCode="404" responseSize="1071" serverUid="AppHollow"
+    slaProfileEnabled="false" uid="5d6c49fb-ed8b-4fe5-928e-9093bca0b366" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_fac77bb7-18ac-4cd2-8b67-ba36e533a28b.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_fac77bb7-18ac-4cd2-8b67-ba36e533a28b.txt</requestContentFileDescription>
+    <header name="Accept" value="image/webp,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch, br"/>
+    <header name="Accept-Language" value="fr-FR,fr;q=0.8,en-US;q=0.6,en;q=0.4"/>
+    <header name="Host" value="localhost:8080"/>
+    <header name="Referer" value="http://localhost:8080/AppHollow/getPage.do?appId=SMALL&amp;pageId=ErrorPage"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 404 Introuvable&#xd;
+Server: Apache-Coyote/1.1&#xd;
+Content-Type: text/html;charset=utf-8&#xd;
+Content-Language: fr&#xd;
+Content-Length: 1071&#xd;
+Date: Wed, 29 Mar 2017 21:46:06 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/html;charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/AppHollow/tests/images/error3.txt"
+    path="/AppHollow/tests/images/error3.txt" postType="1"
+    recordedArtifactZipFileName="team/vus/@user@path/%resources%/recorded-artifacts/2020a2b5-fed8-4bac-9fd4-1d174a994d85.zip"
+    recordedResponseCode="404" responseSize="1071" serverUid="AppHollow"
+    slaProfileEnabled="false" uid="d73836dc-2939-4744-848e-235634a99dbd" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_25717878-97ad-4e41-8472-3c2ba8ceceb4.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_25717878-97ad-4e41-8472-3c2ba8ceceb4.txt</requestContentFileDescription>
+    <header name="Accept" value="image/webp,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch, br"/>
+    <header name="Accept-Language" value="fr-FR,fr;q=0.8,en-US;q=0.6,en;q=0.4"/>
+    <header name="Host" value="localhost:8080"/>
+    <header name="Referer" value="http://localhost:8080/AppHollow/getPage.do?appId=SMALL&amp;pageId=ErrorPage"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 404 Introuvable&#xd;
+Server: Apache-Coyote/1.1&#xd;
+Content-Type: text/html;charset=utf-8&#xd;
+Content-Language: fr&#xd;
+Content-Length: 1071&#xd;
+Date: Wed, 29 Mar 2017 21:46:06 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/html;charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/AppHollow/tests/images/error4.txt"
+    path="/AppHollow/tests/images/error4.txt" postType="1"
+    recordedArtifactZipFileName="team/vus/@user@path/%resources%/recorded-artifacts/2020a2b5-fed8-4bac-9fd4-1d174a994d85.zip"
+    recordedResponseCode="404" responseSize="1071" serverUid="AppHollow"
+    slaProfileEnabled="false" uid="3ff87e38-7bfe-4ebc-ae06-d818223eec47" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_ab1211fd-1f52-4555-b965-4a7fabb25965.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_ab1211fd-1f52-4555-b965-4a7fabb25965.txt</requestContentFileDescription>
+    <header name="Accept" value="image/webp,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch, br"/>
+    <header name="Accept-Language" value="fr-FR,fr;q=0.8,en-US;q=0.6,en;q=0.4"/>
+    <header name="Host" value="localhost:8080"/>
+    <header name="Referer" value="http://localhost:8080/AppHollow/getPage.do?appId=SMALL&amp;pageId=ErrorPage"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 404 Introuvable&#xd;
+Server: Apache-Coyote/1.1&#xd;
+Content-Type: text/html;charset=utf-8&#xd;
+Content-Language: fr&#xd;
+Content-Length: 1071&#xd;
+Date: Wed, 29 Mar 2017 21:46:06 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/html;charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/AppHollow/tests/images/error5.txt"
+    path="/AppHollow/tests/images/error5.txt" postType="1"
+    recordedArtifactZipFileName="team/vus/@user@path/%resources%/recorded-artifacts/2020a2b5-fed8-4bac-9fd4-1d174a994d85.zip"
+    recordedResponseCode="404" responseSize="1071" serverUid="AppHollow"
+    slaProfileEnabled="false" uid="db75c46c-e4c9-4a86-8e78-2ccb01c2eb34" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_fc78d6d2-4088-4653-8b06-b397f0cc163d.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_fc78d6d2-4088-4653-8b06-b397f0cc163d.txt</requestContentFileDescription>
+    <header name="Accept" value="image/webp,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch, br"/>
+    <header name="Accept-Language" value="fr-FR,fr;q=0.8,en-US;q=0.6,en;q=0.4"/>
+    <header name="Host" value="localhost:8080"/>
+    <header name="Referer" value="http://localhost:8080/AppHollow/getPage.do?appId=SMALL&amp;pageId=ErrorPage"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 404 Introuvable&#xd;
+Server: Apache-Coyote/1.1&#xd;
+Content-Type: text/html;charset=utf-8&#xd;
+Content-Language: fr&#xd;
+Content-Length: 1071&#xd;
+Date: Wed, 29 Mar 2017 21:46:06 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="W/&quot;215-1495191984000&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Fri, 19 May 2017 11:06:24 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/AppHollow/style/back.png"
+    path="/AppHollow/style/back.png" postType="1"
+    recordedArtifactZipFileName="team/vus/@user@path/%resources%/recorded-artifacts/2020a2b5-fed8-4bac-9fd4-1d174a994d85.zip"
+    recordedResponseCode="200" responseSize="0" serverUid="AppHollow"
+    slaProfileEnabled="false" uid="77cc1a1d-d38f-4489-b4bb-0a790326ee95" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_a51ad304-c6df-4b97-8893-f92a5698340b.png</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_2f7bb261-2f00-4fbd-a008-cf5c870e73bd.txt</requestContentFileDescription>
+    <header name="Accept" value="image/webp,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch, br"/>
+    <header name="Accept-Language" value="fr-FR,fr;q=0.8,en-US;q=0.6,en;q=0.4"/>
+    <header name="Host" value="localhost:8080"/>
+    <header name="Referer" value="http://localhost:8080/AppHollow/style/style.css"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Server: Apache-Coyote/1.1&#xd;
+Accept-Ranges: bytes&#xd;
+ETag: W/"215-1461325430000"&#xd;
+Last-Modified: Fri, 22 Apr 2016 11:43:50 GMT&#xd;
+Content-Type: image/png&#xd;
+Content-Length: 215&#xd;
+Date: Wed, 29 Mar 2017 21:46:06 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="W/&quot;46360-1495191984000&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Fri, 19 May 2017 11:06:24 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/AppHollow/style/logo.png"
+    path="/AppHollow/style/logo.png" postType="1"
+    recordedArtifactZipFileName="team/vus/@user@path/%resources%/recorded-artifacts/2020a2b5-fed8-4bac-9fd4-1d174a994d85.zip"
+    recordedResponseCode="200" responseSize="0" serverUid="AppHollow"
+    slaProfileEnabled="false" uid="14f140b0-dfd3-4d33-a4b5-611ebc16711f" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_3db77364-7cde-42f0-86b1-e33ca5abc27f.png</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_348062c1-0818-4b81-afd9-6f0313c5cc4b.txt</requestContentFileDescription>
+    <header name="Accept" value="image/webp,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch, br"/>
+    <header name="Accept-Language" value="fr-FR,fr;q=0.8,en-US;q=0.6,en;q=0.4"/>
+    <header name="Host" value="localhost:8080"/>
+    <header name="Referer" value="http://localhost:8080/AppHollow/style/style.css"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Server: Apache-Coyote/1.1&#xd;
+Accept-Ranges: bytes&#xd;
+ETag: W/"46360-1461325430000"&#xd;
+Last-Modified: Fri, 22 Apr 2016 11:43:50 GMT&#xd;
+Content-Type: image/png&#xd;
+Content-Length: 46360&#xd;
+Date: Wed, 29 Mar 2017 21:46:06 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="W/&quot;368-1495191984000&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Fri, 19 May 2017 11:06:24 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/AppHollow/style/tabs.png"
+    path="/AppHollow/style/tabs.png" postType="1"
+    recordedArtifactZipFileName="team/vus/@user@path/%resources%/recorded-artifacts/2020a2b5-fed8-4bac-9fd4-1d174a994d85.zip"
+    recordedResponseCode="200" responseSize="0" serverUid="AppHollow"
+    slaProfileEnabled="false" uid="f692d335-684d-4954-941b-ff2938dac678" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_d86b1c35-e3ea-4f85-b08e-3fa1cf2d5b2a.png</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_f113f6a8-65eb-4bc7-b66f-1f0484683044.txt</requestContentFileDescription>
+    <header name="Accept" value="image/webp,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch, br"/>
+    <header name="Accept-Language" value="fr-FR,fr;q=0.8,en-US;q=0.6,en;q=0.4"/>
+    <header name="Host" value="localhost:8080"/>
+    <header name="Referer" value="http://localhost:8080/AppHollow/style/style.css"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Server: Apache-Coyote/1.1&#xd;
+Accept-Ranges: bytes&#xd;
+ETag: W/"368-1461325430000"&#xd;
+Last-Modified: Fri, 22 Apr 2016 11:43:50 GMT&#xd;
+Content-Type: image/png&#xd;
+Content-Length: 368&#xd;
+Date: Wed, 29 Mar 2017 21:46:06 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

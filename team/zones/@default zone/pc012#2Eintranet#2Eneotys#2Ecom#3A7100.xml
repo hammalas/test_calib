@@ -1,0 +1,5 @@
+<lg-host hostname="pc012.intranet.neotys.com:7100" loadWeight="1"
+    sapSupport="false" standalone="false" supportWANEmulation="false"
+    uid="b1e6e3f8-9a89-4e77-8a60-2ba1bdaccde4" version="6.3.0;build=20171228-12">
+    <!--****** LG NETWORK INTERFACES ******-->
+</lg-host>

@@ -1,0 +1,14 @@
+<basic-logical-action-container element-number="1" execution-type="1"
+    name="TR_3" pacingEnd="${pacingMax}" pacingMode="MODE_PACING_RANGE"
+    pacingStart="${pacingMin}" pacingValue="0" slaProfileEnabled="false"
+    uid="0f17f185-6cb1-4e71-8b3a-8b5b4ff85292" weightsEnabled="false">
+    <weighted-embedded-action uid="16779712-1581-4a1a-8043-87dc19a0d73e"/>
+    <weighted-embedded-action uid="ba68bcf8-ef0b-4e0c-a7ad-15d1e551f009"/>
+    <weighted-embedded-action uid="c9d7be41-e929-406b-8995-7cce68e586f5"/>
+    <weighted-embedded-action uid="e667169d-5182-407d-a885-77a91eb8194a"/>
+    <weighted-embedded-action uid="e1a8d02d-32ca-40b4-8759-1508ceb47d3f"/>
+    <weighted-embedded-action uid="e38ebc91-0926-4cae-a336-e0f7dc8803d3"/>
+    <weighted-embedded-action uid="b22c9082-f04b-4319-a88d-f256353b29fd"/>
+    <weighted-embedded-action uid="72d4a4e4-4b7e-4479-804e-19110981b638"/>
+    <weighted-embedded-action uid="9c08a5fb-1f47-42e0-a6fe-9528cccae1fe"/>
+</basic-logical-action-container>

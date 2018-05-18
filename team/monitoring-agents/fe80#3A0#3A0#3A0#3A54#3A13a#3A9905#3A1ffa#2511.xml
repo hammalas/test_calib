@@ -1,0 +1,36 @@
+<me-host loadWeight="1" sapSupport="false" standalone="false"
+    supportWANEmulation="false" uid="fe80:0:0:0:54:13a:9905:1ffa%11" version="5.4.0;build=20170210-13">
+    <!--****** LG NETWORK INTERFACES ******-->
+    <lg-networkiface description="wlp2s0" enabled="false"
+        isLoopBack="false" name="wlp2s0">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="10.0.4.96">
+            <ip value="10.0.4.96"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="fe80:0:0:0:54:13a:9905:1ffa%wlp2s0">
+            <ip value="fe80:0:0:0:54:13a:9905:1ffa%wlp2s0"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="lo" enabled="false" isLoopBack="true" name="lo">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="localhost">
+            <ip value="127.0.0.1"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="0:0:0:0:0:0:0:1%lo">
+            <ip value="0:0:0:0:0:0:0:1%lo"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="enp0s31f6" enabled="false"
+        isLoopBack="false" name="enp0s31f6">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="192.168.11.101">
+            <ip value="192.168.11.101"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="fe80:0:0:0:d94c:12a5:c915:c9b%enp0s31f6">
+            <ip value="fe80:0:0:0:d94c:12a5:c915:c9b%enp0s31f6"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+</me-host>

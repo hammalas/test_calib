@@ -1,0 +1,5 @@
+<lg-host hostname="shiva.intranet.neotys.com:7100" loadWeight="1"
+    sapSupport="false" standalone="false" supportWANEmulation="false"
+    uid="a76759e7-05ae-4997-9071-ac7b9535b273" version="6.5.0 dev;build=branchHead-DEV">
+    <!--****** LG NETWORK INTERFACES ******-->
+</lg-host>

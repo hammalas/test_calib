@@ -1,0 +1,77 @@
+<lg-host hostname="kaldrogo:7100" loadWeight="1" sapSupport="false"
+    standalone="false" supportWANEmulation="false"
+    uid="776a5b18-dbaa-43fc-b850-07bf44a7ac1d" version="6.5.0;build=20180517-10">
+    <!--****** LG NETWORK INTERFACES ******-->
+    <lg-networkiface description="lo" enabled="false" isLoopBack="true" name="lo">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="kaldrogo.intranet.neotys.com">
+            <ip value="127.0.0.1"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="0:0:0:0:0:0:0:1%lo">
+            <ip value="0:0:0:0:0:0:0:1%lo"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="br-6b6b4da151da" enabled="false"
+        isLoopBack="false" name="br-6b6b4da151da">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="172.18.0.1">
+            <ip value="172.18.0.1"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="br-78b216a4caf8" enabled="false"
+        isLoopBack="false" name="br-78b216a4caf8">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="172.17.0.1">
+            <ip value="172.17.0.1"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="eno1" enabled="false"
+        isLoopBack="false" name="eno1">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="10.0.4.52">
+            <ip value="10.0.4.52"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="fe80:0:0:0:9a90:96ff:fed9:d972%eno1">
+            <ip value="fe80:0:0:0:9a90:96ff:fed9:d972%eno1"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="vethdc4be68" enabled="false"
+        isLoopBack="false" name="vethdc4be68">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="fe80:0:0:0:4497:eff:fe30:a826%vethdc4be68">
+            <ip value="fe80:0:0:0:4497:eff:fe30:a826%vethdc4be68"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="docker0" enabled="false"
+        isLoopBack="false" name="docker0">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="192.168.99.100">
+            <ip value="192.168.99.100"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="fe80:0:0:0:42:c2ff:fe2b:178a%docker0">
+            <ip value="fe80:0:0:0:42:c2ff:fe2b:178a%docker0"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="br-5e7ef2fad6af" enabled="false"
+        isLoopBack="false" name="br-5e7ef2fad6af">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="172.20.0.1">
+            <ip value="172.20.0.1"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="br-4a841be5bf07" enabled="false"
+        isLoopBack="false" name="br-4a841be5bf07">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="172.19.0.1">
+            <ip value="172.19.0.1"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+</lg-host>

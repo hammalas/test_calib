@@ -1,0 +1,130 @@
+<scenario postMonitoringTime="-1" preMonitoringTime="-1"
+    slaProfileEnabled="false" uid="Medium Cloud LG" virtualUsersStates="true">
+    <!--****** POPULATION POLICY ******-->
+    <population-policy name="Population_4">
+        <duration-policy-entry iterations="1" time="1200" timeUnit="0" type="2"/>
+        <volume-policy-entry>
+            <rampup-volume-policy delayIncrement="3.0"
+                delayTypeIncrement="1" initialUserNumber="1"
+                iterationNumber="1" maxUserNumber="350" userIncrement="1"/>
+        </volume-policy-entry>
+        <start-stop-policy-entry start-delay="0" start-type="0"
+            stop-delay="60000" stop-type="0"/>
+        <runtime-policy continueOnError="true" thinktimePolicy="0"
+            thinktimeValue="5000" vuStartDelay="1000" vuStartMode="1"/>
+        <!--****** POPULATION LG HOSTS ******-->
+        <lg-hosts/>
+    </population-policy>
+    <!--****** POPULATION POLICY ******-->
+    <population-policy name="Population_1">
+        <duration-policy-entry iterations="1" time="1200" timeUnit="0" type="2"/>
+        <volume-policy-entry>
+            <rampup-volume-policy delayIncrement="3.0"
+                delayTypeIncrement="1" initialUserNumber="1"
+                iterationNumber="1" maxUserNumber="350" userIncrement="1"/>
+        </volume-policy-entry>
+        <start-stop-policy-entry start-delay="0" start-type="0"
+            stop-delay="60000" stop-type="0"/>
+        <runtime-policy continueOnError="true" thinktimePolicy="0"
+            thinktimeValue="5000" vuStartDelay="1000" vuStartMode="1"/>
+        <!--****** POPULATION LG HOSTS ******-->
+        <lg-hosts/>
+    </population-policy>
+    <!--****** POPULATION POLICY ******-->
+    <population-policy name="Population_3">
+        <duration-policy-entry iterations="1" time="1200" timeUnit="0" type="2"/>
+        <volume-policy-entry>
+            <rampup-volume-policy delayIncrement="3.0"
+                delayTypeIncrement="1" initialUserNumber="1"
+                iterationNumber="1" maxUserNumber="350" userIncrement="1"/>
+        </volume-policy-entry>
+        <start-stop-policy-entry start-delay="0" start-type="0"
+            stop-delay="60000" stop-type="0"/>
+        <runtime-policy continueOnError="true" thinktimePolicy="0"
+            thinktimeValue="5000" vuStartDelay="1000" vuStartMode="1"/>
+        <!--****** POPULATION LG HOSTS ******-->
+        <lg-hosts/>
+    </population-policy>
+    <!--****** POPULATION POLICY ******-->
+    <population-policy name="Population_2">
+        <duration-policy-entry iterations="1" time="1200" timeUnit="0" type="2"/>
+        <volume-policy-entry>
+            <rampup-volume-policy delayIncrement="3.0"
+                delayTypeIncrement="1" initialUserNumber="1"
+                iterationNumber="1" maxUserNumber="350" userIncrement="1"/>
+        </volume-policy-entry>
+        <start-stop-policy-entry start-delay="0" start-type="0"
+            stop-delay="60000" stop-type="0"/>
+        <runtime-policy continueOnError="true" thinktimePolicy="0"
+            thinktimeValue="5000" vuStartDelay="1000" vuStartMode="1"/>
+        <!--****** POPULATION LG HOSTS ******-->
+        <lg-hosts/>
+    </population-policy>
+    <dashboards defaultDashboardUid="Panneau de graphes"/>
+    <!--****** DASHBOARDS  ******-->
+    <charts-model-description name="Panneau de graphes">
+        <chart-description autoRange="true"
+            chart-description-type="chart-description-type"
+            domainMarkerVisible="true" granularityLevel="0"
+            historyState="XMIN" includeInReport="false"
+            rangeMarkerVisible="true"
+            title="&lt;toutes les requêtes> - Durée moyenne" typeName="CLASSIC">
+            <action-curve-description
+                actionUid="2ee035d5-0178-378f-8d0a-63218f082d2f"
+                color="153,153,0" dashed="false" populationName=""
+                scale="1000.0" selected="false"
+                statisticName="result.average.duration" zoneName=""/>
+            <action-curve-description
+                actionUid="2ee035d5-0178-378f-8d0a-63218f082d2f"
+                color="88,183,55" dashed="false" populationName=""
+                scale="0.1" selected="false"
+                statisticName="result.hit.rate" zoneName=""/>
+            <monitor-curve-description color="20,106,203"
+                connectionName="NeoLoad" dashed="false"
+                monitorName="zoneuserload~Europe Germany (Frankfurt 1)"
+                monitoredHostName="NeoLoad" scale="0.1" selected="false"/>
+            <monitor-curve-description color="0,255,0"
+                connectionName="NeoLoad" dashed="false"
+                monitorName="lgcpu.18.195.96.180:443"
+                monitoredHostName="LG 18.195.96.180:443" scale="1.0" selected="false"/>
+            <monitor-curve-description color="255,200,0"
+                connectionName="NeoLoad" dashed="false"
+                monitorName="lgmemory.18.195.96.180:443"
+                monitoredHostName="LG 18.195.96.180:443" scale="1.0" selected="false"/>
+            <monitor-curve-description color="191,0,189"
+                connectionName="NeoLoad" dashed="false"
+                monitorName="lgthroughput.18.195.96.180:443"
+                monitoredHostName="LG 18.195.96.180:443" scale="1.0" selected="false"/>
+            <monitor-curve-description color="0,0,0"
+                connectionName="NeoLoad" dashed="false"
+                monitorName="lgtcp.18.195.96.180:443"
+                monitoredHostName="LG 18.195.96.180:443" scale="1.0" selected="true"/>
+        </chart-description>
+    </charts-model-description>
+    <!--****** END DASHBOARDS  ******-->
+    <!--****** START DATA FILTERS  ******-->
+    <!--****** END DATA FILTERS  ******-->
+    <!--****** START RENDEZ-VOUS POLICIES  ******-->
+    <!--****** END RENDEZ-VOUS POLICIES  ******-->
+    <!--****** START DEBUG POLICY ******-->
+    <debug-policy mode="0"/>
+    <!--****** END DEBUG POLICY ******-->
+    <!--****** START VU STATES ******-->
+    <!--****** END VU STATES ******-->
+    <request-path-exclusion-filter isEnabled="false">
+        <regexps>
+            <regexp>.*\.jpg</regexp>
+            <regexp>.*\.jpeg</regexp>
+            <regexp>.*\.gif</regexp>
+            <regexp>.*\.png</regexp>
+            <regexp>.*\.bmp</regexp>
+            <regexp>.*\.css</regexp>
+            <regexp>.*\.js</regexp>
+            <regexp>.*\.swf</regexp>
+            <regexp>.*\.ico</regexp>
+            <regexp>.*\.jar</regexp>
+            <regexp>.*\.class</regexp>
+            <regexp>.*\.properties</regexp>
+        </regexps>
+    </request-path-exclusion-filter>
+</scenario>

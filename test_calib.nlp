@@ -1,0 +1,13 @@
+# Project description file
+
+project.name=test_calib
+project.version=6.3
+project.original.version=5.3
+product.name=NeoLoad
+product.original.name=NeoLoad
+product.original.version=5.3.0
+project.id=6880ba18-b61a-4350-9a0a-b4977906358d
+project.config.path=config.zip
+project.config.storage=ZIP
+team.server.enabled=true
+team.server.project=hammalas/test_calib

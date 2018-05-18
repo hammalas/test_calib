@@ -1,0 +1,51 @@
+<me-host loadWeight="1" sapSupport="false" standalone="false"
+    supportWANEmulation="false" uid="marmara.intranet.neotys.com" version="5.4.0;build=20170210-13">
+    <!--****** LG NETWORK INTERFACES ******-->
+    <lg-networkiface description="Software Loopback Interface 1"
+        enabled="false" isLoopBack="true" name="lo">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="127.0.0.1">
+            <ip value="127.0.0.1"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="0:0:0:0:0:0:0:1">
+            <ip value="0:0:0:0:0:0:0:1"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="Intel(R) Ethernet Connection I218-LM"
+        enabled="false" isLoopBack="false" name="eth4">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="marmara.intranet.neotys.com">
+            <ip value="10.0.4.41"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="fe80:0:0:0:84d1:8829:da02:bb9c%eth4">
+            <ip value="fe80:0:0:0:84d1:8829:da02:bb9c%eth4"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="TAP-Windows Adapter V9"
+        enabled="false" isLoopBack="false" name="eth14">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="fe80:0:0:0:1d71:28f3:44ae:ed3%eth14">
+            <ip value="fe80:0:0:0:1d71:28f3:44ae:ed3%eth14"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface
+        description="Dell Wireless 5570 HSPA+ (42Mbps) Mobile Broadband Card"
+        enabled="false" isLoopBack="false" name="net5">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="fe80:0:0:0:d43f:156d:62bd:e9de%net5">
+            <ip value="fe80:0:0:0:d43f:156d:62bd:e9de%net5"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="Intel(R) Dual Band Wireless-AC 7260"
+        enabled="false" isLoopBack="false" name="wlan2">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="fe80:0:0:0:e045:a25d:53e1:d849%wlan2">
+            <ip value="fe80:0:0:0:e045:a25d:53e1:d849%wlan2"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+</me-host>
